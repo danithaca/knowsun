@@ -268,6 +268,26 @@ section.success {
   }
 }
 
+#about .bios p {
+  font-size: 16px;
+}
+
+#about img {
+  border: solid 3px #FFF;
+  width: 100%;
+  /*margin: 0 auto 15px;*/
+}
+
+#about .about-clear {
+   clear: none;
+}
+
+@media (max-width: 768px) {
+  #about .about-clear {
+    clear: both;
+  }
+}
+
 .btn-outline {
   margin-top: 15px;
   border: solid 2px #fff;
