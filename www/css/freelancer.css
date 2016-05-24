@@ -268,23 +268,30 @@ section.success {
   }
 }
 
+@media (min-width: 992px) {
+  #about .bios > .col-sm-3 {
+    width: calc(20% - 8px) !important;
+  }
+}
+
 #about .bios p {
-  font-size: 16px;
+  padding: 3px;
+  font-size: 14px;
 }
 
 #about img {
   border: solid 3px #FFF;
   width: 100%;
-  /*margin: 0 auto 15px;*/
 }
 
 #about .about-clear {
-   clear: none;
+   display: none;
+   clear: both;
 }
 
 @media (max-width: 768px) {
   #about .about-clear {
-    clear: both;
+    display: block;
   }
 }
 
