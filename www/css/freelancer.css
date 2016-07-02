@@ -270,7 +270,7 @@ section.success {
 
 @media (min-width: 992px) {
   #about .bios > .col-sm-3 {
-    width: calc(20% - 8px) !important;
+    /*width: calc(20% - 8px) !important;*/
   }
 }
 
