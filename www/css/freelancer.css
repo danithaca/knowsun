@@ -71,6 +71,11 @@ hr.star-light:after {
   background-color: #18bc9c;
 }
 
+header hr.star-light:after {
+content: '';
+background-color: transparent;
+}
+
 hr.star-primary {
   border-color: #2c3e50;
 }
@@ -88,7 +93,10 @@ header {
   text-align: center;
   color: #fff;
   background: #18bc9c;
+  /*background-image: url("../img/team/cloud-accountants.png");*/
+  background-size: 100% 130%;
 }
+
 
 header .container {
   padding-top: 100px;
@@ -116,7 +124,7 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
   }
 
   header .intro-text .name {
