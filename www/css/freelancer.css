@@ -64,6 +64,7 @@ hr.star-primary:after {
 
 hr.star-light {
   border-color: #fff;
+
 }
 
 hr.star-light:after {
@@ -73,7 +74,7 @@ hr.star-light:after {
 
 header hr.star-light:after {
 content: "\f005";
-background-color: transparent;
+/*background-color: transparent;*/
 }
 
 hr.star-primary {
