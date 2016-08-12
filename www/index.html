@@ -22,6 +22,11 @@
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+  <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -40,12 +45,30 @@
     ga('send', 'pageview');
   </script>
 
+
+  <style type="text/css">
+    .center-on-img{
+      position: absolute;
+      transform: translateY(-60%);
+      margin-left:auto;
+      margin-right:auto;
+      width:100%;
+      left:0;
+      text-shadow: 1px 1px 2px #000000;
+      
+    }
+
+    .normal-text{
+      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+  </style>
 </head>
 
 <body id="page-top" class="index">
 
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:rgba(17,24,31,0.7)">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header page-scroll">
@@ -55,7 +78,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#page-top">Knowsun Consulting</a>
+     <a class="navbar-brand" href="#page-top">Knowsun Consulting</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -80,29 +103,29 @@
   <!-- /.container-fluid -->
 </nav>
 
-<!-- Header -->
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <!--img class="img-responsive" src="img/profile.png" alt=""-->
+<script>
+// this function must be defined in the global scope
 
-        <div class="intro-text">
-          <span class="name">Knowsun Consulting</span>
-          <hr class="star-light">
-          <span class="skills">Data Science - Machine Learning - Full Stack Web Development - Software Architect</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
+$( "#img-background" ).ready(function() {
+   $("#img-background" ).slideDown(800);
+});
+
+</script>
+
+<!-- Header -->
+<div style="position:relative; width:100%; text-align:center;">
+  <img id="img-background" src="img/background.png" style="width:100%; min-height:15vh; display:none;"/>
+  <span class="center-on-img normal-text" style=" top:60%; color:white; font-size:7vw;"> KnowSun Consulting </span>
+  <span class="center-on-img" style="top:65%; color:white; font-size:5vw;">__________________________________________</span>
+  <span class="center-on-img normal-text" style="top:77%; color:white; font-size:3vw;">Data Science - Machine Learning - Web Development</span>
+</div>
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Services</h2>
+        <h2 style="text-shadow: 1px 1px 2px lightblue;">Services</h2>
         <hr class="star-primary">
       </div>
     </div>
@@ -126,7 +149,7 @@
         </a>
       </div>
       <div class="col-sm-4 portfolio-item">
-        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal" >
           <div class="caption">
             <div class="caption-content">Drupal R&D<br>(esp. Big Data Integration)</div>
           </div>
@@ -166,7 +189,7 @@
 </section>
 
 <!-- About Section -->
-<section class="success" id="about">
+<section class="success" style="background-color:#0C1B3A" id="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -277,7 +300,7 @@
           <div id="success"></div>
           <div class="row">
             <div class="form-group col-xs-12">
-              <button type="submit" class="btn btn-success btn-lg">Send</button>
+              <button type="submit" class="btn btn-success btn-lg" style="background-color:#0C1B3A;">Send</button>
             </div>
           </div>
         </form>
