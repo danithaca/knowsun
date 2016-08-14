@@ -208,6 +208,10 @@ section.success {
   }
 }
 
+.jumbo-header {
+  background-image: url("img/background.png");
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
