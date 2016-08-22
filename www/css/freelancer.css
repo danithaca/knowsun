@@ -150,6 +150,7 @@ header .intro-text .skills {
   }
 
   .navbar-fixed-top .navbar-brand {
+    width: 80%;
     font-size: 2em;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -169,6 +170,11 @@ header .intro-text .skills {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+}
+
+.navbar .navbar-toggle {
+  width: 20%;
+  margin-right: 0;
 }
 
 .navbar a:focus {
@@ -260,6 +266,9 @@ section.success {
     position: absolute;
     top: 50%;
     width: 100%;
+    font-size: 1em;
+    padding-left: 5px;
+    padding-right: 5px;
     /* height: 20px; */
     /* margin-top: -24px; */
     text-align: center;
@@ -522,4 +531,3 @@ footer .footer-below {
 .portfolio-modal h4 {
   margin-top: 40px;
 }
-
