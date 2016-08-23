@@ -12,6 +12,14 @@ body {
   overflow-x: hidden;
 }
 
+@media only screen and (max-width: 336px) {
+ padding-top: 8em
+}
+
+@media only screen and (max-width: 502px) {
+ padding-top: 4em
+}
+
 p {
   font-size: 20px;
 }
