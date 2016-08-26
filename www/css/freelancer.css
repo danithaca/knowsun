@@ -4,9 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
  
+
+/* this was causing the 12px margin at top -Sal */
 :root:before {
-  content: url("img/background.png");
+  /*content: url("img/background.png");*/
 }
+
 
 body {
   overflow-x: hidden;
