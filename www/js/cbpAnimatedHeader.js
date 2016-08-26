@@ -13,12 +13,16 @@ var cbpAnimatedHeader = (function() {
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-fixed-top' ),
 		didScroll = false,
-		changeHeaderOn = 300;
+		// changeHeaderOn = 300;
+		changeHeaderOn = $('.jumbo-header .title').offset().top - $('.navbar').outerHeight();
 
 	function init() {
 		window.addEventListener( 'scroll', function( event ) {
 			if( !didScroll ) {
 				didScroll = true;
+
+				// set navbar to shrink when hits .title div
+				changeHeaderOn = $('.jumbo-header .title').offset().top - $('.navbar').outerHeight();
 				setTimeout( scrollPage, 250 );
 			}
 		}, false );
