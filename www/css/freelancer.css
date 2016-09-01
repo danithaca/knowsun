@@ -13,6 +13,7 @@
 
 body {
   overflow-x: hidden;
+  color: #0C1B3A;
 }
 
 @media only screen and (max-width: 336px) {
@@ -93,11 +94,13 @@ content: "\f005";
 }
 
 hr.star-primary {
-  border-color: #2c3e50;
+  /*border-color: #2c3e50;*/
+  border-color: #0C1B3A;
 }
 
 hr.star-primary:after {
-  color: #2c3e50;
+  /*color: #2c3e50;*/
+  color: #0C1B3A;
   background-color: #fff;
 }
 
@@ -154,7 +157,8 @@ header .intro-text .skills {
 
 @media (min-width: 768px) {
   .navbar-fixed-top {
-    padding: 4px 0;
+    padding: 14px 0px;
+    /* ^^^^^^ navbar expanded padding: vertical, then horizontal*/
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
@@ -168,7 +172,8 @@ header .intro-text .skills {
   }
 
   .navbar-fixed-top.navbar-shrink {
-    padding: 4px 0;
+    padding: 0px 0px;
+    /* ^^^^^^ navbar collapsed padding: vertical, then horizontal*/
   }
 
   .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -208,6 +213,10 @@ section {
   padding: 100px 0;
 }
 
+#about {
+  padding-top: 70px;
+}
+
 section h2 {
   margin: 0;
   font-size: 3em;
@@ -242,6 +251,7 @@ section.success {
   position: relative;
   margin: 0 auto;
   max-width: 400px;
+  cursor: initial;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -261,13 +271,13 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   transition: 0.4s;
-  background-color:#2072C7;
-  opacity: 0.8;
-  /*background-color: ;*/
+  /*background-color:#2072C7;*/
+  /*opacity: 0.8;*/
 }
 
 #portfolio {
   padding-top: 70px;
+  padding-bottom: 60px;
 }
 
 
@@ -287,6 +297,7 @@ section.success {
     /* color: #18BC9C; */
     font-weight: bold;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 
 
