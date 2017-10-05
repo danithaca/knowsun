@@ -514,6 +514,29 @@ footer .footer-below {
   margin: 30px 0;
 }
 
+.portfolio-modal .modal-content .reference {
+  margin: 30px 0;
+  font-size: 15px;
+}
+.portfolio-modal .modal-content .reference i {
+  color: #b4bcc2;
+}
+
+.portfolio-modal .modal-content .reference img {
+  width: 8em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  float: left;
+}
+
+.portfolio-modal .modal-content .reference p {
+  color: #b4bcc2;
+}
+
+.portfolio-modal .modal-content .reference span {
+
+}
+
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
