@@ -4,11 +4,17 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
  
-
-/* this was causing the 12px margin at top -Sal */
-:root:before {
-  /*content: url("img/background.png");*/
-}
+/********* NOTES *********/
+* blue: '#1aa3ff', replaced with: 'limegreen' -10/18/17 slvtrs
+*
+*
+*
+*
+*
+*
+*
+*
+**************************/
 
 
 body {
@@ -38,7 +44,7 @@ a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: #1aa3ff;
+  color: limegreen;
 }
 
 section.success p a, section.success p a:hover, section.success p a:focus, section.success p a:active section.success p a.active {
@@ -209,6 +215,13 @@ header .intro-text .skills {
   border: 0;
 }
 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus  {
+  color: limegreen;
+}
+
 section {
   padding: 100px 0;
 }
@@ -266,7 +279,7 @@ section.success {
   border-radius: 4px;
   background-color:#0C1B3A;
   opacity:1;
-  border: 2px solid #1aa3ff;
+  border: 2px solid limegreen;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -341,7 +354,7 @@ section.success {
 }
 
 #about img {
-  border: solid 2px #1aa3ff;
+  border: solid 2px limegreen;
   width: 100%;
 }
 
@@ -370,7 +383,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
   border: solid 2px #fff;
-  color: #1aa3ff;
+  color: limegreen;
   background: #fff;
 }
 
