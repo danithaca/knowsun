@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ var param = decodeURIComponent(window.location.href.split('#')[1]);
+ if(param == "workit"){
+  $('#webapp_architect').click();
+ }
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
