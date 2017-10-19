@@ -384,7 +384,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
   border: solid 2px #fff;
-  color: limegreen;
+  color: #014601;
   background: #fff;
 }
 
