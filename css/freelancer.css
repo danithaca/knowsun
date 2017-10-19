@@ -237,7 +237,8 @@ section h2 {
 
 section.success {
   color: #fff;
-  background: #18bc9c;
+  background: #0C1B3A;
+  /*backgorund: #18bc9c;*/
 }
 
 @media (max-width: 767px) {
