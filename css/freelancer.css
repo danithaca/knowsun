@@ -44,7 +44,7 @@ a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: limegreen;
+  color: #1aa3ff;
 }
 
 section.success p a, section.success p a:hover, section.success p a:focus, section.success p a:active section.success p a.active {
