@@ -237,7 +237,7 @@ section h2 {
 
 section.success {
   color: #fff;
-  background: #0033d0;
+  background: #0C1B3A;
   /*backgorund: #18bc9c;*/
 }
 
@@ -278,7 +278,7 @@ section.success {
   -moz-transition: all ease .5s;
   transition: all ease .5s;
   border-radius: 4px;
-  background-color:#0033d0; 
+  background-color:#0C1B3A; 
   opacity:1;
   border: 2px solid limegreen;
 }
