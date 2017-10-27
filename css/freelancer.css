@@ -5,7 +5,7 @@
  */
  
 /********* NOTES *********/
-* blue: '#1aa3ff', replaced with: 'limegreen' -10/18/17 slvtrs
+* darkblue: '#00023a', lightblue: '#1aa3ff'
 *
 *
 *
@@ -219,7 +219,7 @@ header .intro-text .skills {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus  {
-  color: limegreen;
+  color: #1aa3ff;
 }
 
 section {
@@ -273,19 +273,18 @@ section.success {
   width: 100%;
   height: 100%;
   opacity: 0.9;
-  background: rgba(24, 188, 156, .9);
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
   border-radius: 4px;
-  background-color:#000652; 
+  background-color: #00023a;
   opacity:1;
-  border: 2px solid #014601;
+  border: 2px solid #00023a;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   transition: 0.4s;
-  /*background-color:#2072C7;*/
+  /*background-color: #1aa3ff;*/
   /*opacity: 0.8;*/
 }
 
@@ -355,7 +354,7 @@ section.success {
 }
 
 #about img {
-  border: solid 2px #014601;
+  border: solid 2px #1aa3ff;
   width: 100%;
 }
 
