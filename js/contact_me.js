@@ -6,8 +6,8 @@ $(function() {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
-//             event.preventDefault(); // prevent default submit behaviour
-            return; // formspree ajax requires gold membership, so submitting via php instead
+            event.preventDefault(); // prevent default submit behaviour
+//             return; // formspree ajax requires gold membership, so submitting via php instead
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
@@ -19,7 +19,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://formspree.io/info@knowsun.com",
+//                 url: "https://formspree.io/info@knowsun.com",
+                url: "../mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
