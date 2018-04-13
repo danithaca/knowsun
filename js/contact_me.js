@@ -6,8 +6,8 @@ $(function() {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
-            event.preventDefault(); // prevent default submit behaviour
-//             return; // formspree ajax requires gold membership, so submitting via php instead
+//             event.preventDefault(); // prevent default submit behaviour
+            return; // formspree ajax requires gold membership, so submitting via php instead
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
