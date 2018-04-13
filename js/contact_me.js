@@ -20,7 +20,7 @@ $(function() {
             }
             $.ajax({
 //                 url: "https://formspree.io/info@knowsun.com",
-                url: "../mail/contact_me.php",
+                url: "http://knowsun.com/mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
