@@ -1,0 +1,3 @@
+- We are redesigning the website for the Knowsun Consulting business. Pre 2026 redesign web pages are stored in "pre2026" folder. Condensed ideas and design choices are in "docs/old_index_ideas.md" and "docs/old_index.md"
+- Live production web page is on https://knowsun.com
+- The redesign will be a single page (prefered) or up to 5 pages to cover all the marketing ideas for the consulting business. It's not a web app, all static web pages optimized for SEO.
